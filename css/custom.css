@@ -1476,3 +1476,56 @@ footer.footer{
 		box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
 	}
 }
+
+/* === Logo visibility & sizing (added by assistant) === */
+.navbar .brand-logo {
+  height: 100px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* @media (min-width: 992px) {
+  .navbar .brand-logo { height: 60px; }
+} */
+
+/* Keep header readable on all backgrounds */
+.header .navbar {
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+/* Footer styling and logo sizing */
+.footer {
+  background-color: #ffffff;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+.footer .footer-logo {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.footer .footer-logo-img {
+  height: 100px;
+  width: auto;
+  max-width: 240px;
+  object-fit: contain;
+}
+
+/* Make sure images don't get dimmed by accidental global styles */
+.footer .footer-logo-img,
+.navbar .brand-logo {
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+/* Space for mobile nav so logo doesn't collide */
+@media (max-width: 991.98px) {
+  .header .navbar #main-menu {
+    margin-top: 8px;
+  }
+}
