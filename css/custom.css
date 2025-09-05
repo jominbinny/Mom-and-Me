@@ -179,7 +179,7 @@ header .navbar-collapse.collapse{
 .navbar .navbar-nav .nav-link{
 	padding: 4px 10px;
 	font-size: 14px;
-	color: #ff5722;
+	color: #ca80db;
 	text-transform: uppercase;
 	border-radius: 4px;
 	letter-spacing: 0.02em;
@@ -1002,7 +1002,7 @@ header .navbar-collapse.collapse{
 }
 	
 .testimonial-slider-wrapper-outer{
-	background: #cde686;
+	background: #ffd0da;
 	max-width: 960px;
 	margin: 0 auto;
 	border-radius: 26px 26px 0 0;
@@ -1011,7 +1011,7 @@ header .navbar-collapse.collapse{
 }
 
 .testimonial-slider-wrapper{
-	background: #a4cf27;
+	background: #b73d70;
 	border-radius: 16px 16px 0 0;
 	padding-bottom: 60px;
 }
@@ -1056,7 +1056,7 @@ header .navbar-collapse.collapse{
 	width: 16px;
 	height: 16px;
 	opacity: 1;
-	background: #cde686;
+	background: #d688a9;
 }
 
 .testimonial-pagination .swiper-pagination-bullet-active{
@@ -1118,7 +1118,7 @@ header .navbar-collapse.collapse{
 
 .photo-orange:before,
 .photo-orange:after{
-	background: #ff5722;
+	background: #c422ff;
 }
 
 .photo-blue:before,
@@ -1128,7 +1128,7 @@ header .navbar-collapse.collapse{
 
 .photo-green:before,
 .photo-green:after{
-	background: #a4cf27;
+	background: #de81b7;
 }
 
 /*************************************/
